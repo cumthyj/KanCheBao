@@ -1,11 +1,8 @@
-import React from 'react';
-import DrawNavi from './src/screen/drawnavi'
-import BasicNavi from './src/screen/basicnavi'
-import TabNavi from './src/screen/tabnavi'
-import ModalScreen from './src/screen/modal'
+import React from "react";
+import Setup from "./src/boot/setup";
 
 export default class App extends React.Component {
   render() {
-    return <DrawNavi />;
+    return <Setup />;
   }
 }

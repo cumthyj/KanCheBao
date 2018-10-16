@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, View, Text } from 'react-native';
+import { Button, View, Text,StyleSheet } from 'react-native';
 import { createStackNavigator } from 'react-navigation';
 
 class HomeScreen extends React.Component {
